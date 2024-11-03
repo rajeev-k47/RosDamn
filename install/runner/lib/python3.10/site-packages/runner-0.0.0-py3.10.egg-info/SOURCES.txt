@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/runner/runner.egg-info/PKG-INFO
+../../build/runner/runner.egg-info/SOURCES.txt
+../../build/runner/runner.egg-info/dependency_links.txt
+../../build/runner/runner.egg-info/entry_points.txt
+../../build/runner/runner.egg-info/requires.txt
+../../build/runner/runner.egg-info/top_level.txt
+../../build/runner/runner.egg-info/zip-safe
+resource/runner
+runner/__init__.py
+runner/noobnode.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
