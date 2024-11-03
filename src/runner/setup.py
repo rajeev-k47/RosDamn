@@ -17,10 +17,13 @@ setup(
     maintainer_email='rajeevkumawat2007@outlook.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    extras_require={  # <-- Use this to specify extra dependencies for testing
+        'test': ['pytest'],
+    },
     entry_points={
         'console_scripts': [
             "runner = runner.noobnode:main",
+            'Robot_news = runner.robot_news:main',
         ],
     },
 )

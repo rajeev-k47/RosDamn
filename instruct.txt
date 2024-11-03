@@ -1,0 +1,9 @@
+ros2 node list -> For current running nodes
+ros2 node info /node_name -> Gives information about node's subscribers and publishers
+ros2 run pkg node_name --ros-args --remap __node:=newname -> To publish a same node with ddifferent name.
+colcon build --packages-select pkg -> To build a specific pkg
+colcon build --packages-select pkg --symlink-install -> No need to build everytime after changing the node file but make sure that the node is executable by chaning its type through chmod +x
+
+rqt , rqt_graph -> Gui to visualize the node graph in Ros2
+ros2 topic list -> To specify published topic list.
+
